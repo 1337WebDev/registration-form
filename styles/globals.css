@@ -73,6 +73,16 @@
 .container {
   width: 60%;
 }
+@media screen and (max-width: 1600px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 90%;
+  }
+}
 
 .section {
   width: 100%;
@@ -82,6 +92,16 @@
 .mb {
   margin-bottom: 4rem;
 }
+@media screen and (max-width: 1600px) {
+  .mb {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mb {
+    margin-bottom: 2rem;
+  }
+}
 
 .mr {
   margin-right: 1rem;
@@ -89,6 +109,16 @@
 
 .mt {
   margin-top: 4rem;
+}
+@media screen and (max-width: 1600px) {
+  .mt {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mt {
+    margin-top: 2rem;
+  }
 }
 
 .flex__col {
@@ -106,6 +136,16 @@
 
 .heading__large {
   font-size: 4rem;
+}
+@media screen and (max-width: 1600px) {
+  .heading__large {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .heading__large {
+    font-size: 2rem;
+  }
 }
 
 button {
@@ -125,6 +165,21 @@ button:hover {
   border: 2px solid #000;
   background-color: #fff;
   color: #000;
+}
+@media screen and (max-width: 1600px) {
+  button {
+    padding: 0 4rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  button {
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 1rem;
+  }
 }
 
 .input {
@@ -152,10 +207,52 @@ button:hover {
   color: rgba(0, 0, 0, 0.4);
   font-size: 1.5rem;
 }
+@media screen and (max-width: 1600px) {
+  .input::-moz-placeholder {
+    font-size: 1.2rem;
+  }
+  .input::placeholder {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .input::-moz-placeholder {
+    font-size: 1rem;
+  }
+  .input::placeholder {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .input {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
 
 .error {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 1600px) {
+  .error {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .error {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .selection {
@@ -166,9 +263,29 @@ button:hover {
   flex-wrap: wrap;
   gap: 2rem;
 }
+@media screen and (max-width: 1600px) {
+  .selection {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .selection {
+    gap: 2rem;
+  }
+}
 
 .question__heading {
   font-size: 3rem;
+}
+@media screen and (max-width: 1600px) {
+  .question__heading {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .question__heading {
+    font-size: 1.5rem;
+  }
 }
 
 footer {
@@ -184,4 +301,16 @@ footer {
   align-items: center;
   color: #fff;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 1600px) {
+  footer {
+    height: 8rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  footer {
+    height: 6rem;
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=globals.css.map */

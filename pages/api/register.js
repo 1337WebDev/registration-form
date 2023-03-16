@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function handler(req, res) {
   axios
-    .post("http://localhost:8080/", req.body)
+    .post(process.env.NEXT_PUBLIC_API_URL, req.body)
     .then((response) => {
       if (response.status === 200) {
         res.status(200).json({ message: "Success" });

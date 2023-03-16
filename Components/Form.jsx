@@ -136,7 +136,7 @@ const Form = ({ switchPage, setUser }) => {
     if (step !== 2) setStep(step + 1);
     if (step === 2) {
       axios
-        .post("http://localhost:3000/api/register", {
+        .post("/api/register", {
           name: name,
           campus: campus,
           mail: mail,

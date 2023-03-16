@@ -1,0 +1,111 @@
+@import "./_font"
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Blimone', sans-serif
+
+.body
+    background-color: #fff
+    width: 100vw
+    height: 100vh
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.container
+    width: 60%
+
+.section
+    width: 100%
+    height: 100%
+
+.mb
+    margin-bottom: 4rem
+
+.mr
+    margin-right: 1rem
+
+.mt
+    margin-top: 4rem
+
+.flex__col
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.flex__row
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+
+.heading__large
+    font-size: 4rem
+
+button
+    padding: 0 6rem
+    height: 4rem
+    outline: none
+    border: none
+    border-radius: 2rem
+    background-color: #000
+    color: #fff
+    font-size: 1.5rem
+    transition: all 0.3s ease-in-out
+    cursor: pointer
+    border: 2px solid transparent
+    &:hover
+        border: 2px solid #000
+        background-color: #fff
+        color: #000
+    
+.input
+    width: 80%
+    font-size: 1.5rem
+    padding: 1rem
+    border: none
+    border-bottom: 2px solid #000
+    margin-bottom: 6rem
+    transition: all 0.3s ease-in-out
+    &:active
+        outline: none
+        border-bottom: 2px solid #000
+    &:focus
+        outline: none
+        border-bottom: 2px solid #1CD679
+    &::placeholder
+        color: rgba(0, 0, 0, .4)
+        font-size: 1.5rem
+
+.error
+    font-size: 1.5rem
+    margin-bottom: 2rem
+
+.selection
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    gap: 2rem
+
+.question__heading
+    font-size: 3rem
+
+footer
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 10rem
+    background-color: #000
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: #fff
+    font-size: 1.5rem
